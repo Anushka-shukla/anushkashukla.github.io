@@ -6,7 +6,6 @@ h1,h4,h5 {text-align: center;
 
 }
 
-
 ul {
     list-style-type: none;
     margin: 0;
@@ -35,15 +34,12 @@ ul {
     
   }
 
-
-
 h2 {
   text-align: center;
   color: white;
   font-family: "Lucida Console", "Courier New", monospace;
 
 }
-
 
 a{
   color: white;
@@ -61,6 +57,7 @@ div#about{
   padding-right: 30px;
   padding-bottom: 50px;
   padding-left: 30px;
+  border-radius: 25px;
   
 }
 
@@ -76,6 +73,7 @@ div#blogs{
   padding-right: 30px;
   padding-bottom: 50px;
   padding-left: 30px;
+  border-radius: 25px;
   
 }
 div#contact{
@@ -90,8 +88,15 @@ div#contact{
   padding-right: 30px;
   padding-bottom: 50px;
   padding-left: 30px;
-
+  border-radius: 25px;
   
+}
+
+div#socials {
+  text-align: center;
+  color: white;
+  font-family: "Lucida Console", "Courier New", monospace;
+
 }
 
 input[type=text], select {
@@ -119,10 +124,6 @@ input[type=submit]:hover {
   background-color:black;
 }
 
-div.inner-right {text-align: center;
-  color: white;
-}
-
 .container {
   display: flex;
   justify-content: space-between;
@@ -130,8 +131,6 @@ div.inner-right {text-align: center;
 
 
 /* Backgound */
-body {
+ body {
   background-color: #111;
-}
-
-
+} 
